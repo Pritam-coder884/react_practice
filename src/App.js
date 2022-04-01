@@ -1,25 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
-
+// import Person from "./event_handling/Person";
+// import Person from "./state/Person";
+// import Person from "./Props/Person";
+// import Demo from "./Props/Demo";
+// import Person from "./Components/Person";
+// import Man from "./Components/Main";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Person />
     </div>
   );
 }
-
 export default App;
+
+
+
+
+
+// using class component
+
+// import './App.css';
+// import React,{Component} from "react";
+// import Person from "./event_handling/Person";
+// class App extends Component{
+//   constructor(props){
+//     super(props);
+//     this.state={};
+//   }
+//   buttonClickHandler=()=>{
+//     alert("hello");
+//   }
+//   render(){
+//     return(
+//       <div className='App'>
+//         <Person name="pritam" age="20" />
+//         <button type="button" onClick={this.buttonClickHandler}>Click me</button>
+//       </div>
+//     );
+//   }
+// }
+// export default App;
+
